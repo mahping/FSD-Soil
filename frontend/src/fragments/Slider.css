@@ -1,0 +1,72 @@
+.mySwiper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after{
+    color: black;
+}
+
+.products {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 20px;
+    width: 100%; 
+}
+
+.hoverIncrease {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px; 
+    transition-duration: 0.3s;
+}
+
+.hoverIncrease img {
+    height: 220px;
+    width: auto; 
+}
+
+.hoverIncrease .products {
+    margin-top: 10px;
+}
+
+.hoverIncrease .products h1 {
+    margin-top: 10px; 
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hoverIncrease .products h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(30, 142, 2);
+}
+
+.price-underline {
+    width: 57px;
+    height: 2px;
+    background-color: black;
+    margin: 10px auto;
+}
+
+.select-btn .btn {
+    padding: 8px 16px;
+    background-color: rgb(119, 158, 85);
+    text-decoration: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: auto;
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    margin-right: auto;
+  }
+
+
+.hoverIncrease:hover {
+    transform: scale(1.05); 
+}

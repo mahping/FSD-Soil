@@ -1,0 +1,15 @@
+.profile-strip {
+    background-color: rgb(255, 252, 205);  
+    color: #333; 
+    padding: 10px 20px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-bottom: 1px solid #eaeaea;
+    gap: 15px; 
+}
+
+.profile-strip span {
+    margin: 0 10px; 
+    white-space: nowrap; 
+}

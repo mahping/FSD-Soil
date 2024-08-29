@@ -1,0 +1,40 @@
+.header-blog {
+    background-image: url(../images/gardenheader.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; 
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    text-align: center;
+    width: 100%;
+    font-size: 48px;
+}
+
+.title{
+    padding: 10px 100px;
+}
+
+.container-blog {
+    display: block;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.content-blog, .content-continue {
+    padding: 20px;
+    word-wrap: break-word;
+}
+
+.sidebar {
+    float: right;
+    max-width: 700px;
+    margin-left: 20px;
+    height: auto;
+}
+
+.sidebar img {
+    width: 100%;
+    height: auto;
+}

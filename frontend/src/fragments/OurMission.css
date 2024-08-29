@@ -1,0 +1,65 @@
+
+
+body{
+    background:rgb(255, 252, 205);
+}
+
+p{
+    margin: 10px;
+    max-width: 5000px;
+    font-size: 1vw;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+    color: rgb(33, 42, 19);
+}
+
+.content{
+    max-width: 1150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .image{
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.content .image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.container-mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mission-title{
+    font-size: 3vw;
+    margin-bottom: 80px;
+}
+
+.info-title{
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+
+.info{
+    max-width: 700px;
+    width: 100%;
+    margin: 0 60px;
+}

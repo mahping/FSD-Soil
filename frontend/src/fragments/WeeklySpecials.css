@@ -1,0 +1,19 @@
+.section-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 2%;
+}
+
+.section-title h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(33, 42, 19);
+}
+
+.section-line{
+    width: 192px;
+    height: 1px;
+    background-color: rgb(33, 42, 19);
+}

@@ -1,0 +1,23 @@
+
+.admin-page {
+    padding: 20px;
+  }
+  
+  .admin-page h2 {
+    margin-bottom: 20px;
+  }
+  
+  .admin-page table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .admin-page table, th, td {
+    border: 1px solid black;
+  }
+  
+  .admin-page th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
